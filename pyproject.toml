@@ -1,0 +1,16 @@
+[project]
+name = "start-python-uv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "ai_adk",
+    "ai_langchain",
+    "ai_test",
+    "test",
+    "api_server",
+]
